@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="assets/img/heroi-sala.webp" type="image/webp">
+<link rel="preload" as="image" media="(max-width: 899px)" imagesrcset="assets/img/heroi-sala-480.webp 480w, assets/img/heroi-sala-960.webp 960w" imagesizes="100vw">
 <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <script type="application/ld+json">
@@ -119,9 +119,10 @@
       </div>
       <figure class="heroi__foto midia">
         <picture>
-          <source srcset="assets/img/heroi-sala.webp" type="image/webp">
-          <img src="assets/img/heroi-sala.jpg" width="708" height="885" fetchpriority="high" alt="Sala de atendimento da clínica: painel de madeira clara com spots de luz quente, bancada e maca com rolo grafite em primeiro plano.">
-        </picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/heroi-sala-480.webp 480w, assets/img/heroi-sala-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/heroi-sala-960.webp 960w" sizes="100vw">
+  <img src="assets/img/heroi-sala-960.jpg" width="708" height="885" alt="Sala de atendimento da clínica: painel de madeira clara com spots de luz quente, bancada e maca com rolo grafite em primeiro plano." decoding="async" fetchpriority="high">
+</picture>
       </figure>
     </div>
   </section>
@@ -147,7 +148,11 @@
         <li class="rt">
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-drenagem.webp" type="image/webp"><img src="assets/img/servico-drenagem.jpg" width="960" height="1200" loading="lazy" alt="Mãos de profissional sobre a perna coberta por toalha branca, numa drenagem manual." style="object-position: 50% 50%"></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-drenagem-480.webp 480w, assets/img/servico-drenagem-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-drenagem-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-drenagem-960.jpg" width="960" height="1200" alt="Mãos de profissional sobre a perna coberta por toalha branca, numa drenagem manual." style="object-position: 50% 50%" decoding="async">
+</picture>
               <span class="selo">01 / 06</span>
             </div>
             <p class="card__meta">CORPORAL</p>
@@ -159,7 +164,11 @@
         <li class="rt">
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-liberacao.webp" type="image/webp"><img src="assets/img/servico-liberacao.jpg" width="960" height="1200" loading="lazy" alt="Mãos pressionando as costas de uma pessoa deitada de bruços." style="object-position: 50% 40%"></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-liberacao-480.webp 480w, assets/img/servico-liberacao-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-liberacao-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-liberacao-960.jpg" width="960" height="1200" alt="Mãos pressionando as costas de uma pessoa deitada de bruços." style="object-position: 50% 40%" decoding="async">
+</picture>
               <span class="selo">02 / 06</span>
             </div>
             <p class="card__meta">CORPORAL</p>
@@ -171,7 +180,11 @@
         <li class="rt">
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-ventosa.webp" type="image/webp"><img src="assets/img/servico-ventosa.jpg" width="960" height="1200" loading="lazy" alt="Copos de ventosa transparentes enfileirados sobre uma toalha creme."></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-ventosa-480.webp 480w, assets/img/servico-ventosa-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-ventosa-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-ventosa-960.jpg" width="960" height="1200" alt="Copos de ventosa transparentes enfileirados sobre uma toalha creme." decoding="async" loading="lazy">
+</picture>
               <span class="selo">03 / 06</span>
             </div>
             <p class="card__meta">CORPORAL</p>
@@ -183,7 +196,11 @@
         <li class="rt" data-extra>
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-corrente.webp" type="image/webp"><img src="assets/img/servico-corrente.jpg" width="960" height="1200" loading="lazy" alt="Quatro eletrodos pretos com cabos grafite alinhados sobre uma toalha creme."></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-corrente-480.webp 480w, assets/img/servico-corrente-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-corrente-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-corrente-960.jpg" width="960" height="1200" alt="Quatro eletrodos pretos com cabos grafite alinhados sobre uma toalha creme." decoding="async" loading="lazy">
+</picture>
               <span class="selo">04 / 06</span>
             </div>
             <p class="card__meta">CORPORAL</p>
@@ -195,7 +212,11 @@
         <li class="rt" data-extra>
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-limpeza.webp" type="image/webp"><img src="assets/img/servico-limpeza.jpg" width="960" height="1200" loading="lazy" alt="Discos de algodão, tigela de vidro com água e pincel facial numa bandeja de madeira."></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-limpeza-480.webp 480w, assets/img/servico-limpeza-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-limpeza-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-limpeza-960.jpg" width="960" height="1200" alt="Discos de algodão, tigela de vidro com água e pincel facial numa bandeja de madeira." decoding="async" loading="lazy">
+</picture>
               <span class="selo">05 / 06</span>
             </div>
             <p class="card__meta">FACIAL</p>
@@ -207,7 +228,11 @@
         <li class="rt" data-extra>
           <article class="card">
             <div class="card__midia midia">
-              <picture><source srcset="assets/img/servico-led.webp" type="image/webp"><img src="assets/img/servico-led.jpg" width="960" height="1200" loading="lazy" alt="Máscara facial de LED branca com luz vermelha, apoiada sobre uma toalha grafite."></picture>
+              <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/servico-led-480.webp 480w, assets/img/servico-led-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/servico-led-960.webp 960w" sizes="50vw">
+  <img src="assets/img/servico-led-960.jpg" width="960" height="1200" alt="Máscara facial de LED branca com luz vermelha, apoiada sobre uma toalha grafite." decoding="async" loading="lazy">
+</picture>
               <span class="selo">06 / 06</span>
             </div>
             <p class="card__meta">FACIAL</p>
@@ -266,7 +291,11 @@
     <div class="container drenagem__grade">
       <figure class="drenagem__foto rt">
         <div class="midia">
-          <picture><source srcset="assets/img/destaque-drenagem.webp" type="image/webp"><img src="assets/img/destaque-drenagem.jpg" width="1200" height="1500" loading="lazy" alt="Mãos conduzindo o antebraço apoiado numa toalha clara, em movimento suave." style="object-position: 55% 40%"></picture>
+          <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/destaque-drenagem-480.webp 480w, assets/img/destaque-drenagem-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/destaque-drenagem-960.webp 960w" sizes="50vw">
+  <img src="assets/img/destaque-drenagem-960.jpg" width="1200" height="1500" alt="Mãos conduzindo o antebraço apoiado numa toalha clara, em movimento suave." style="object-position: 55% 40%" decoding="async" loading="lazy">
+</picture>
         </div>
         <figcaption>Drenagem linfática manual</figcaption>
       </figure>
@@ -339,7 +368,11 @@
   <section class="secao onde" id="onde-fica" aria-labelledby="onde-titulo">
     <div class="onde__grade">
       <figure class="onde__foto midia rt">
-        <picture><source srcset="assets/img/onde-fica-recepcao.webp" type="image/webp"><img src="assets/img/onde-fica-recepcao.jpg" width="904" height="1128" loading="lazy" alt="Balcão de madeira da recepção com o logo da Mari em acrílico espelhado e uma mão segurando uma taça de café." style="object-position: 50% 40%"></picture>
+        <picture>
+  <source type="image/webp" media="(max-width: 899px)" srcset="assets/img/onde-fica-recepcao-480.webp 480w, assets/img/onde-fica-recepcao-960.webp 960w" sizes="100vw">
+  <source type="image/webp" srcset="assets/img/onde-fica-recepcao-960.webp 960w" sizes="50vw">
+  <img src="assets/img/onde-fica-recepcao-960.jpg" width="904" height="1128" alt="Balcão de madeira da recepção com o logo da Mari em acrílico espelhado e uma mão segurando uma taça de café." style="object-position: 50% 40%" decoding="async" loading="lazy">
+</picture>
       </figure>
       <div class="onde__texto rt">
         <p class="rotulo">ONDE FICA</p>
